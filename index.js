@@ -25,3 +25,10 @@ const Calculator ={
     divide:(x,y) => x / y 
 }
 
+function actionApplyer(int,array){
+    for (let i = 0; i < array.length; i++) {
+       int = array[i](int);
+ }
+ return int;
+}
+actionApplyer(); 
