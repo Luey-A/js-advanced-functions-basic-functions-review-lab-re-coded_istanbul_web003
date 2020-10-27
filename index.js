@@ -18,12 +18,10 @@ function saturdayFun (argument = 'roller-skate'){
             }
         }
 
-
-
-function actionApplyer(int,array){
-    for (let i = 0; i < array.length; i++) {
-       int = array[i](int);
- }
- return int;
+const Calculator ={
+    add: (x,y) => x + y ,
+    subtract: (x,y) => x - y ,
+    multiply: (x,y) => x * y ,
+    divide:(x,y) => x / y 
 }
-actionApplyer(); 
+
